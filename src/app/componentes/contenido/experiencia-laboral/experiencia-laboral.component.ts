@@ -19,4 +19,8 @@ export class ExperienciaLaboralComponent {
       this.miPorfolio = data.contenido.tarjeta2;
     });
   }
+
+  /* repeticionItems(): void{
+
+  } */
 }

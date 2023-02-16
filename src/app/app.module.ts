@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { AppRoutingModuleTs } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { EncabezadoComponent } from './componentes/encabezado/encabezado.component';
 import { NavComponent } from './componentes/nav/nav.component';
@@ -26,7 +27,8 @@ import { ContactoComponent } from './componentes/contenido/contacto/contacto.com
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+    AppRoutingModuleTs
   ],
   providers: [],
   bootstrap: [AppComponent]
