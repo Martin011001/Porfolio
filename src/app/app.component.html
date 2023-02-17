@@ -1,20 +1,23 @@
-<app-nav></app-nav>
+<div class="fondo">
+  <app-nav></app-nav>
 
-<app-encabezado></app-encabezado>
+  <app-encabezado></app-encabezado>
 
-<div class="contenedor">
+  <div class="contenedor">
 
-  <div class="row section" id="primerFila">
+    <div class="row section" id="primerFila">
 
-    <app-barra-lateral class="col-3"></app-barra-lateral>
+      <app-barra-lateral class="col-3"></app-barra-lateral>
 
-    <div class="col-9">
-      <router-outlet></router-outlet>
+      <div class="col-9">
+        <router-outlet></router-outlet>
+      </div>
+
+
     </div>
-    
 
   </div>
 
-</div>
+  <app-footer></app-footer>
 
-<app-footer></app-footer>
+</div>

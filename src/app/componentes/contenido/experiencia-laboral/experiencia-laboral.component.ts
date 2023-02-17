@@ -7,10 +7,11 @@ import { PorfolioService } from 'src/app/servicios/porfolio.service';
   styleUrls: ['./experiencia-laboral.component.css']
 })
 export class ExperienciaLaboralComponent {
+
   miPorfolio:any;
 
   constructor(private datosPorfolio:PorfolioService){
-
+    
   }
 
   ngOnInit(): void{
@@ -20,7 +21,5 @@ export class ExperienciaLaboralComponent {
     });
   }
 
-  /* repeticionItems(): void{
 
-  } */
 }

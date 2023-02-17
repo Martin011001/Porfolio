@@ -30,43 +30,41 @@
                 {
                     "descripcion": "G3 ARQ S.R.L Empresa Constructora 2019-2022",
                     "tituloPuestos": "Puesto y actividad",
-                    "puesto": {
-                        "item1": "Agente Administrativo",
-                        "item2": "Sobre estante de obra",
-                        "item3": "Dibujante de proyectos",
-                        "item4": "",
-                        "item5": ""
-                    },
+                    "puestos": [
+                        "Agente Administrativo",
+                        "Sobre estante de obra",
+                        "Dibujante de proyectos",
+                        "",
+                        ""
+                    ],
                     "tituloHerramientas": "Herramientas",
-                    "herramienta": {
-                        "item1": "SketChup",
-                        "item2": "Autocad",
-                        "item3": "Exel",
-                        "item4": "",
-                        "item5": ""
-                    }
+                    "herramientas": [
+                        "SketChup",
+                        "Autocad",
+                        "Exel",
+                        "",
+                        ""
+                    ]
                 },
                 {
                     "descripcion": "G3 ARQ S.R.L Empresa Constructora 2019-2022",
                     "tituloPuestos": "Puesto y actividad",
-                    "puesto": {
-                        "item1": "Agente Administrativo",
-                        "item2": "Sobre estante de obra",
-                        "item3": "Dibujante de proyectos",
-                        "item4": "",
-                        "item5": ""
-                    },
+                    "puestos": [
+                        "Agente Administrativo",
+                        "Sobre estante de obra",
+                        "Dibujante de proyectos",
+                        "",
+                        ""
+                    ],
                     "tituloHerramientas": "Herramientas",
-                    "herramienta": {
-                        "item1": "SketChup",
-                        "item2": "Autocad",
-                        "item3": "Exel",
-                        "item4": "",
-                        "item5": ""
-                    }
+                    "herramientas": [
+                        "SketChup",
+                        "Autocad",
+                        "Exel",
+                        "",
+                        ""
+                    ]
                 }
-
-
             ]
         }
     }

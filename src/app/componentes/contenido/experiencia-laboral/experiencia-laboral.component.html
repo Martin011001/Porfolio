@@ -20,13 +20,9 @@
             <div class="col-7">
                 <h6 class="tituloitems">{{experiencia.tituloPuestos}}</h6>
 
-                <div *ngFor="let experiencia of miPorfolio.puestos">
+                <div>
                     <ul class="ListaLaboral">
-                        <li class="itemsLaboral">{{experiencia.puesto.item1}}</li>
-                        <li class="itemsLaboral">{{experiencia.puesto.item2}}</li>
-                        <li class="itemsLaboral">{{experiencia.puesto.item3}}</li>
-                        <li class="itemsLaboral">{{experiencia.puesto.item4}}</li>
-                        <li class="itemsLaboral">{{experiencia.puesto.item5}}</li>
+                        <li *ngFor="let item of experiencia.puestos" class="itemsLaboral">{{item}}</li>
                     </ul>
                 </div>
             </div>
@@ -34,11 +30,7 @@
             <div class="col">
                 <h6 class="tituloitems">{{experiencia.tituloHerramientas}}</h6>
                 <ul class="ListaLaboral">
-                    <li class="itemsLaboral">{{experiencia.herramienta.puestos.item1}}</li>
-                    <li class="itemsLaboral">{{experiencia.herramienta.puestos.item2}}</li>
-                    <li class="itemsLaboral">{{experiencia.herramienta.puestos.item3}}</li>
-                    <li class="itemsLaboral">{{experiencia.herramienta.puestos.item4}}</li>
-                    <li class="itemsLaboral">{{experiencia.herramienta.puestos.item5}}</li>
+                    <li *ngFor="let itemDos of experiencia.herramientas" class="itemsLaboral">{{itemDos}}</li>
                 </ul>
             </div>
 
