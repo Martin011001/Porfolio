@@ -15,7 +15,7 @@ export class EncabezadoComponent {
 
   ngOnInit(): void{
     this.datosPorfolio.obtenerdatos().subscribe(data =>{
-      console.log(data)
+      console.log(data + "Aca estamos en data")
       this.miPorfolio = data;
     });
   }

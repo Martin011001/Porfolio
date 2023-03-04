@@ -15,7 +15,7 @@ export class ExperienciaLaboralComponent {
   }
 
   ngOnInit(): void{
-    this.datosPorfolio.obtenerdatos().subscribe(data =>{
+    this.datosPorfolio.obtenerdatos().subscribe(data => {
       console.log(data)
       this.miPorfolio = data.contenido.tarjeta2;
     });
