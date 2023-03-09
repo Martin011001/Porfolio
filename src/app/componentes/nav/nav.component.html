@@ -1,19 +1,28 @@
 <nav>
   <ul class="navUl">
+
+    <div class="btn-group">
+      <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Small button
+      </button>
+      <ul class="dropdown-menu">
+        
+      </ul>
+    </div>
+
     <li class="liSesion">
-
-        <button (click)="navIniciaSesion()" routerLink="/Contacto" aria-current="page" class="btn btn-primary buttonSesion"
-          type="button">Iniciar Sesion</button>
-
+      <button (click)="navIniciaSesion()" routerLink="/Contacto" aria-current="page"
+        class="btn btn-primary buttonSesion" type="button">Iniciar Sesion</button>
     </li>
 
-
-    <li class="navLi"><a href="#" class="buttonNavRedes"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968534.png" height="30"
-          width="30"></a>
+    <li class="navLi"><a href="#" class="buttonNavRedes"><img
+          src="https://cdn-icons-png.flaticon.com/512/5968/5968534.png" height="30" width="30"></a>
     </li>
-    <li class="navLi"><a href="https://www.linkedin.com/in/martin-gagliardi-8180bb211/"
-        class="buttonNavRedes"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" height="30" width="30"></a></li>
+    <li class="navLi"><a href="https://www.linkedin.com/in/martin-gagliardi-8180bb211/" class="buttonNavRedes"><img
+          src="https://cdn-icons-png.flaticon.com/512/174/174857.png" height="30" width="30"></a></li>
     <li class="navLi"><a href="https://github.com/Martin011001" class="buttonNavRedes"><img
           src="https://cdn-icons-png.flaticon.com/512/3291/3291667.png" height="35" width="35"></a></li>
   </ul>
+
+  
 </nav>
