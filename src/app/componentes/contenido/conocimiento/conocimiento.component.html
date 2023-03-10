@@ -22,8 +22,17 @@
             <a><img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" height="37" width="37"></a>
         </div>
 
-        <div class="col-11" style="margin-top: 10px;">
-            <h6>HTML5</h6>
+        <div class="col-11" style="margin-top: 0px;">
+            <h6 style="margin-bottom: 2px;">HTML5</h6>
+
+            <div class="progress">
+                <div class="progress-bar conocimiento" role="progressbar" style="color: black;"
+                    [ngStyle]="{'width': 50 + '%', 'background-color': 50 >= 70 ? 'green' : 50 >= 35 ? 'yellow' : 'red'}"
+                     aria-valuemin="0" aria-valuemax="100">
+                    Basico 50%
+                </div>
+            </div>
+
         </div>
 
     </div>
@@ -62,4 +71,7 @@
         </div>
 
     </div>
+
+    
+
 </div>

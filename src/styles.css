@@ -10,8 +10,8 @@ nav {
   float: left;
   width: 100%;
   text-align: center;
-  background-color: rgba(20, 19, 19, 0);
-  height: 65px;
+  background-color: rgba(20, 19, 19, 0.349);
+  height: 60px;
 }
 
 .navUl {
@@ -59,7 +59,6 @@ nav {
 }
 
 .logoArgNav {
-  position: absolute;
   left: 0%;
   right: -10%;
   top: -23%;
@@ -245,7 +244,7 @@ a {
 footer {
   position: relative;
   overflow: hidden;
-  height: 65px;
+  height: 60px;
   padding: 5px;
   background-color: rgba(63, 60, 60, 0.644);
 
